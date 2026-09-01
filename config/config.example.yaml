@@ -1,0 +1,25 @@
+# Copie para config/config.yaml e ajuste. O config.yaml real não vai para o Git.
+
+corpus:
+  # Caminho para a raiz do corpus baixado do Drive.
+  # Windows: use barras normais ou barra dupla.
+  #   raiz: "C:/Users/pedro/Documents/DIARIO DO COMERCIO"
+  # Linux/macOS:
+  #   raiz: "/home/pedro/corpus/diario-do-comercio"
+  raiz: "MUDE_AQUI"
+
+  # Meses a considerar. Vazio = todos.
+  meses: []
+
+amostragem:
+  semente: 42
+  n_desenvolvimento: 350
+  n_teste: 120
+  # Edições reservadas exclusivamente para teste (nunca entram em treino).
+  edicoes_teste: []
+
+saida:
+  relatorios: "relatorios"
+  resultados: "resultados"
+  interim: "data/interim"
+  processed: "data/processed"

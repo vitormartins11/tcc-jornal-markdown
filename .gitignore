@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------
+# CORPUS — NUNCA versionar. Material protegido por direito autoral
+# do Diário do Comércio. Enviar isto para o GitHub é violação.
+# ---------------------------------------------------------------
+data/
+!data/README.md
+!data/**/.gitkeep
+
+# Relatórios e resultados gerados (regeráveis)
+relatorios/*
+!relatorios/.gitkeep
+resultados/*
+!resultados/.gitkeep
+
+# Modelos e checkpoints
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+checkpoints/
+adapters/
+wandb/
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Configuração local com caminhos e chaves
+config/config.yaml
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,33 @@
+# --- núcleo: leitura e análise de PDF ---
+pymupdf==1.24.14          # extração de spans, fontes, coordenadas
+pdfplumber==0.11.4        # segunda opinião sobre layout
+pypdfium2==4.30.0         # extração de texto rápida (usada pelo artigo-base)
+
+# --- dados e análise ---
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.14.1             # algoritmo húngaro (linear_sum_assignment)
+scikit-learn==1.5.2       # índice de Rand ajustado
+pyyaml==6.0.2
+tqdm==4.67.1
+
+# --- métricas de texto e estrutura ---
+rapidfuzz==3.10.1         # distância de edição rápida
+jiwer==3.0.5              # CER e WER
+markdown-it-py==3.0.0     # parsing de Markdown para AST
+apted==1.0.3              # distância de edição de árvore (base do TEDS)
+lxml==5.3.0
+
+# --- imagem ---
+pillow==11.0.0
+
+# --- gráficos para o TCC ---
+matplotlib==3.9.2
+
+# --- qualidade de código ---
+ruff==0.8.4
+pytest==8.3.4
+
+# --- NÃO instalar agora ---
+# torch, transformers, peft, llamafactory: só na Fase 4.
+# Instale seguindo a documentação da sua GPU/CUDA, não por aqui.

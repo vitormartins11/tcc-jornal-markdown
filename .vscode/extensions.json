@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    "ms-toolsai.jupyter",
+    "tomoki1207.pdf",
+    "mechatroner.rainbow-csv",
+    "yzhang.markdown-all-in-one",
+    "eamodio.gitlens"
+  ]
+}
